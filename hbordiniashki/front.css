@@ -1,13 +1,12 @@
-
 #card-body {
-  visibility:hidden;
+  visibility: hidden;
 }
 
 @media only screen and (max-width: 600px) {
   #card-body {
-    visibility:visible;
+    visibility: visible;
   }
-  
+
   body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -19,8 +18,8 @@
   }
 
   .card {
-    background: rgb(0, 111, 186);
-    background: linear-gradient(344deg, rgba(0, 111, 186, 1) 36%, rgba(128, 183, 220, 1) 55%, rgba(255, 255, 255, 1) 72%);
+    background: rgb(98,107,112);
+    background: linear-gradient(335deg, rgba(98,107,112,1) 45%, rgba(62,226,198,1) 55%, rgba(255,255,255,1) 64%);
     height: 100%;
     border-radius: 8px;
     overflow: hidden;
